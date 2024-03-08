@@ -1,0 +1,19 @@
+spring:
+  data:
+    mongodb:
+      uri: mongodb://127.0.0.1:27017/bs
+    redis:
+      host: 127.0.0.1
+      port: 6379
+      #redis服务器第一个数据库
+      database: 0
+
+#server:
+#  ssl: #ssl配置
+#    enabled: true  # 默认为true
+#    #key-alias: alias-key # 别名(可以不进行配置)
+#    # 保存SSL证书的秘钥库的路径
+#    key-store: classpath:ssl/service.一级域名.jks
+#    key-password: 私钥密码
+#    #key-store-password: 证书密码
+#    key-store-type: JKS
